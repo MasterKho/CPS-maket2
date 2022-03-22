@@ -5,7 +5,6 @@
   .menu{
       display: flex;
       width: 320px;
-      height: 20%;
       align-items:  center;
       background-color: #ffffff;
   }
@@ -62,6 +61,7 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
+  
   .search-icon {
     position: absolute;
     top:23px;

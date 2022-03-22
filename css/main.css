@@ -1,0 +1,32 @@
+h1{
+    position: relative;
+    top:120px;
+    left: 24px;
+    font-size: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+}
+
+.main__title::before{
+    position: absolute;
+    content: " ";
+    top: -5px;
+    left: -24px;
+    height: 32px;;
+    border-left: 4px solid #a3ffe7;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .content{
+      margin: 0;
+  }
+
+  .content__links{
+      margin: 120px 0 0 24px;
+  }
+
+  .content__link{
+      padding-top:32px;
+  }
