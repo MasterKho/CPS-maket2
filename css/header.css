@@ -50,3 +50,25 @@
     transform: translateY(5px);
   }
   /* burger end */
+
+  .menu__logo {
+    position: absolute;
+    top: 19px;
+    left: 81px;
+    width: 100px;
+    height: 50px;
+    background-image: url("../assets/img/logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .search-icon {
+    position: absolute;
+    top:23px;
+    right: 24px;
+    background-color: var(--main-bg-color);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+  }
